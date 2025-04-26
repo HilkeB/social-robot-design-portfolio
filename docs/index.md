@@ -2,6 +2,7 @@
 
 This portfolio website is created for the course 'Social Robot Design' and will be regularly updated with interesting insights and project progres!
 
+
 # About me
 My name is Hilke and I am an Interaction Technology Master[^1] student at the University of Twente. During my Bachelor Creative Technology[^2] I learned how to combine broad knowlegde on electrical engineering, computer science and design to create meaningful, and technological, solutions to a problem. 
 
@@ -13,8 +14,7 @@ During my Bachelor I also joined RoboTeam[^3], one of the student teams of the U
 [^3]: https://roboteamtwente.nl/
 
 The knowlegde which I gained during my Bachelor and my student team year are valuable skills which I can use during my master of Interaction Technology. During this master program I mainly follow courses about Human-computer interaction in addition to more technical courses. 
-
-![Hello, this is me!](images/abstract.png)
+![Hello, this is me!](images/abstract.png){ align=right }
 /// caption
 Hello, this is me!
 ///
