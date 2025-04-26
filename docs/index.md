@@ -14,7 +14,7 @@ During my Bachelor I also joined RoboTeam[^3], one of the student teams of the U
 
 The knowlegde which I gained during my Bachelor and my student team year are valuable skills which I can use during my master of Interaction Technology. During this master program I mainly follow courses about Human-computer interaction in addition to more technical courses. 
 
-![Hello, this is me!](images/abstract_me.png)
+![Hello, this is me!](images/abstract.png)
 /// caption
 Hello, this is me!
 ///
