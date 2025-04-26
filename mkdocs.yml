@@ -1,0 +1,46 @@
+# Project information
+site_name: Social Robot Design Portfolio
+site_description: 
+site_author: HilkeB
+copyright: 
+repo_url: https://HilkeB.github.io/social-robot-design-portfolio
+
+theme:
+    name: material
+    features:
+    	- navigation.tabs
+    	- navigation.instant
+    locale: en
+    plugins:
+
+nav:
+    - Home: index.md
+#    - Getting Started: getting-started.md
+#    - User Guide: user-guide/
+#    - Developer Guide: dev-guide/
+#    - About:
+#        - Release Notes: about/release-notes.md
+#        - Contributing: about/contributing.md
+#        - License: about/license.md
+
+extra_css:
+#    - css/extra.css
+
+markdown_extensions:
+#    - toc:
+#        permalink: 
+#    - attr_list
+#    - def_list
+#    - tables
+#    - pymdownx.highlight:
+#        use_pygments: false
+#    - pymdownx.snippets
+#    - pymdownx.superfences
+#    - callouts
+#    - mdx_gh_links:
+#        user: mkdocs
+#        repo: mkdocs
+#    - mkdocs-click
+
+
+plugins:
