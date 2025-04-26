@@ -1,12 +1,8 @@
 # Project information
 site_name: Material for MkDocs
-site_url: 
-site_author: 
+site_url: https://hilkeb.github.io/social-robot-design-portfolio
+site_author: HilkeB
 site_description: 
-
-# Repository
-repo_name: 
-repo_url: 
 
 # Copyright
 copyright: 
@@ -31,6 +27,17 @@ theme:
 
 # Extensions
 markdown_extensions:
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
 nav:
   - Home: index.md
