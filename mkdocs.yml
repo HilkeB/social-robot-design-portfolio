@@ -21,8 +21,13 @@ theme:
     - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
+    - toc.integrate
+    - toc.follow
   icon:
     logo: logo
+  palette:
+    primary: purple
+    accent: indigo
 
 # Extensions
 markdown_extensions:
