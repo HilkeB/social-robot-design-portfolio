@@ -12,10 +12,12 @@ My name is Hilke and I am an Interaction Technology Master[^1] student at the Un
 [^1]: https://www.utwente.nl/en/education/master/programmes/interaction-technology/
 
 [^2]: (https://www.utwente.nl/onderwijs/bachelor/opleidingen/creative-technology/)
-![Hello, this is me!](images/abstract1.png){ align=right }
+
+![Hello, this is me!](images/abstract1.png){ align=left }
 /// caption
 Hello, this is me!
 ///
+
 During my Bachelor I also joined RoboTeam[^3], one of the student teams of the University of Twente, which creates autonomous footbal robots. During this year I was responsible for the electronics of the robots and because of this it should come as no suprise that I really like working with hardware!
 [^3]: https://roboteamtwente.nl/
 
