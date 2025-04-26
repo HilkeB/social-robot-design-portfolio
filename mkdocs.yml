@@ -19,8 +19,16 @@ theme:
     - content.action.view
     - content.tooltips
     - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
   icon:
     logo: logo
 
 # Extensions
 markdown_extensions:
+
+nav:
+  - Home: index.md
+  - Week 1: 
+    - Project: week1/project.md
+    - Reflection: week1/reflection.md
