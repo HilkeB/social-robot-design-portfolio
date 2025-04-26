@@ -1,46 +1,64 @@
 # Project information
-site_name: Social Robot Design Portfolio
+site_name: Material for MkDocs
+site_url: 
+site_author: 
 site_description: 
-site_author: HilkeB
+
+# Repository
+repo_name: 
+repo_url: 
+
+# Copyright
 copyright: 
-repo_url: https://HilkeB.github.io/social-robot-design-portfolio
 
+# Theme
 theme:
-    name: material
-    features:
-    	- navigation.tabs
-    	- navigation.instant
-    locale: en
-    plugins:
+  name: material
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.tooltips
+    - navigation.sections
+  icon:
+    logo: logo
 
-nav:
-    - Home: index.md
-#    - Getting Started: getting-started.md
-#    - User Guide: user-guide/
-#    - Developer Guide: dev-guide/
-#    - About:
-#        - Release Notes: about/release-notes.md
-#        - Contributing: about/contributing.md
-#        - License: about/license.md
-
-extra_css:
-#    - css/extra.css
-
-markdown_extensions:
-#    - toc:
-#        permalink: 
-#    - attr_list
-#    - def_list
-#    - tables
-#    - pymdownx.highlight:
-#        use_pygments: false
-#    - pymdownx.snippets
-#    - pymdownx.superfences
-#    - callouts
-#    - mdx_gh_links:
-#        user: mkdocs
-#        repo: mkdocs
-#    - mkdocs-click
-
-
+# Plugins
 plugins:
+  - projects:
+      projects_dir: examples
+      projects_config_transform: !!python/name:examples.transform
+      log_level: info
+
+# Hooks
+hooks:
+  - hooks/archive.py
+
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+    absolute_links: warn
+  links:
+    not_found: warn
+    absolute_links: warn
+    unrecognized_links: warn
+
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
