@@ -41,6 +41,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Week 1: 
-    - Project: week1/project.md
+  - Project:
+    - Week 1: week1/project.md
+  - Reflection: 
     - Reflection: week1/reflection.md
