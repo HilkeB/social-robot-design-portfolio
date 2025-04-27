@@ -19,6 +19,7 @@ theme:
     - navigation.tabs.sticky
     - toc.integrate
     - toc.follow
+    - navigation.footer
   icon:
     logo: logo
   palette:
@@ -42,6 +43,20 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Project:
-    - Week 1: week1/project.md
+    - Week 1: project1.md
+    - Week 2: project_template.md
+    - Week 3: project_template.md
+    - Week 4: project_template.md
+    - Week 5: project_template.md
+    - Week 6: project_template.md
+    - Week 7: project_template.md
+    - Week 8: project8.md
   - Reflection: 
-    - Reflection: week1/reflection.md
+    - Week 1: reflection1.md
+    - Week 2: project_template.md
+    - Week 3: project_template.md
+    - Week 4: project_template.md
+    - Week 5: project_template.md
+    - Week 6: project_template.md
+    - Week 7: project_template.md
+    - Week 8: reflection8.md
