@@ -44,19 +44,19 @@ nav:
   - Home: index.md
   - Project:
     - Week 1: project1.md
-    - Week 2: project_template.md
-    - Week 3: project_template.md
-    - Week 4: project_template.md
-    - Week 5: project_template.md
-    - Week 6: project_template.md
-    - Week 7: project_template.md
+    - Week 2: project2.md
+    - Week 3: project3.md
+    - Week 4: project4.md
+    - Week 5: project5.md
+    - Week 6: project6.md
+    - Week 7: project7.md
     - Week 8: project8.md
   - Reflection: 
     - Week 1: reflection1.md
-    - Week 2: project_template.md
-    - Week 3: project_template.md
-    - Week 4: project_template.md
-    - Week 5: project_template.md
-    - Week 6: project_template.md
-    - Week 7: project_template.md
+    - Week 2: reflection2.md
+    - Week 3: reflection3.md
+    - Week 4: reflection4.md
+    - Week 5: reflection5.md
+    - Week 6: reflection6.md
+    - Week 7: reflection7.md
     - Week 8: reflection8.md
