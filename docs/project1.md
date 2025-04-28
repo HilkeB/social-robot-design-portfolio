@@ -22,7 +22,7 @@ After the exploration of the problem space and the creation of the building bloc
 
 - The building block of entertainment was also explored by utilizing ROSE in interactive play. By combining open play with technology, social boundaries can be broken and children might be able to play more freely. This can be tested via a Wizard-of-Ozz method in which there is a physically present ROSE which is controlled by a Wizard.
 
-![Slide](images/Utility.png)
+![ROSE cases final slide](images/Utility.png)
 /// caption
 Slide representing the three final cases for ROSE
 ///
