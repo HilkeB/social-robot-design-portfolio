@@ -41,7 +41,7 @@ The summary also made me think back of the end of Chapter 8[^1] in which the aut
 
 When looking at the over overview of ‘The coming robot revolution’[^4], the following bullet points are found:
 
-![Overview of 'The coming robot revolution' by Bar-Cohen et al.](images/Bar-Cohen_RobotRevolution_overview.jpeg) { width="500" }
+![Overview of 'The coming robot revolution' by Bar-Cohen et al.](images/Bar-Cohen_RobotRevolution_overview.jpeg)
 /// caption
 Overview of 'The coming robot revolution' by Bar-Cohen et al.[^4]
 ///
