@@ -12,7 +12,7 @@ Lastly, some interesting considerations are provided with respect to the design 
 -	The face and facial expression of a robot are important. These two aspects are important since communication is done verbally but also non-verbally. To create the most intuitive social behavior, human artifacts should be mimicked. 
 -	It is important to design a social system in such a way that a user does not experience uncanny valley. This is a phenomenon in which the user feels uneasy due to the high, yet imperfect, human resemblance of a robot. 
 
-![Uncanny valley graph](image/graph_uncanny.png)
+![Uncanny valley graph](images/graph_uncanny.png)
 /// caption
 The uncanny valley of personalization, from Mac Reddin[^2]
 ///
@@ -41,7 +41,7 @@ The summary also made me think back of the end of Chapter 8[^1] in which the aut
 
 When looking at the over overview of ‘The coming robot revolution’[^4], the following bullet points are found:
 
-![Overview of 'The coming robot revolution' by Bar-Cohen et al.](images/Bar-Cohen_RobotRevolution_overview.jpeg)
+![Overview of 'The coming robot revolution' by Bar-Cohen et al.](images/Bar-Cohen_RobotRevolution_overview.jpeg) { width="500" }
 /// caption
 Overview of 'The coming robot revolution' by Bar-Cohen et al.[^4]
 ///
