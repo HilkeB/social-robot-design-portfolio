@@ -66,14 +66,6 @@ In addition to verbal feedback, a robot might also provide physical feedback. A 
 -	Physical assistance in a task: In addition to just providing a physical demonstration, a robot might also assist a user during a task. This means that the robot and user would have to work together. 
 -	Emotional body posture: Feedback and encouragement can be provided via speech; however a lot of our communication is done via body posture, and it was found by Olsson et al. [^12] that it is possible to create emotional body postures for social robots.  
 
-### Dice 3: Outcome of the scenario
-As earlier mentioned, the lectures and reflective assignments showed us that a designer should also consider negative outcomes and should move away from the ‘perfect scenario’. Because of this, a dice was added with three different outcomes (all three outcomes are mentioned twice on the dice since a dice has six sides 😊 )
-This means that the content of this dice is:
-
--	2x Positive outcome: The robot allows for a positive outcome, or the robot allows for the intended outcome of the scenario.
--	2x negative outcome: The robot has a negative outcome on the outcome, or the robot does not provide the intended outcome of the scenario.
--	2x neutral outcome: The Robot does not have a significant effect on the outcome.
-
 [^6]: S. Bedaf, G. J. Gelderblom, en L. De Witte, ‘Overview and Categorization of Robots Supporting Independent Living of Elderly People: What Activities Do They Support and How Far Have They Developed’, Assistive Technology, vol. 27, nr. 2, pp. 88-100, apr. 2015, doi: 10.1080/10400435.2014.978916.
 [^7]:  T. Belpaeme, J. Kennedy, A. Ramachandran, B. Scassellati, en F. Tanaka, ‘Social robots for education: A review’, Sci. Robot., vol. 3, nr. 21, p. eaat5954, aug. 2018, doi: 10.1126/scirobotics.aat5954.
 [^8]: I. H. Han e.a., ‘Human-Robot Interaction and Social Robot: The Emerging Field of Healthcare Robotics and Current and Future Perspectives for Spinal Care’, Neurospine, vol. 21, nr. 3, pp. 868-877, sep. 2024, doi: 10.14245/ns.2448432.216.
