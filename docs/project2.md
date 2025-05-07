@@ -34,7 +34,7 @@ Digitalized exploration of ROSE as a co-amputee.
 
 During this brainstorm several building blocks were found which were needed to create a robotic system that could function as a co-amputee. And with these building blocks in mind, several broader themes and applications can be identified: ROSE as mental support and ROSE as coach helping with tasks. This functioned as the basis for the creation of our story cubes.
 
- ## Dices
+## Dices
 It was decided that a total of three dices would be created as part of our brainstorming method. Above, two main HRI themes have already been identified: ROSE as mental support (encouragement and aid) and ROSE as coach helping with tasks (Application area). These two categories will both receive their own story dice (below a more detailed elaboration on the story cubes can be found). In addition, the lessons and the reflections taught us that positive, negative and maybe neutral scenarios should be explored when it comes to HRI. Because of this, a third dice was added which can tell a designer which type of outcome a scenario should have. 
 
 ### Dice 1: Application areas which are linked to HRI 
@@ -50,10 +50,12 @@ Several application areas of HRI were found:
 Several types of encouragement or aid can be provided by a robot. First of all, two types of feedback were identified based on the earlier described brainstorm: physical feedback and mental/ verbal feedback. 
 Mental/verbal feedback
 **Three types of mental and verbal HRI feedback with respect to an amputee journey are identified:**
+
 -	Emotional feedback: 
 -	Deciding when to stop:
 -	Verbal instructions:
 **In addition to this, a total of three types of Physical feedback were found:**
+
 -	Physical demonstration:
 -	Physical assistance in a task:
 -	Emotional body posture:
@@ -65,8 +67,8 @@ This means that the content of this dice is:
 
 -	2x Positive outcome: The robot allows for a positive outcome, or the robot allows for the intended outcome of the scenario.
 -	2x negative outcome: The robot has a negative outcome on the outcome, or the robot does not provide the intended outcome of the scenario.
-
 -	2x neutral outcome: The Robot does not have a significant effect on the outcome.
+
 [^6]: S. Bedaf, G. J. Gelderblom, en L. De Witte, ‘Overview and Categorization of Robots Supporting Independent Living of Elderly People: What Activities Do They Support and How Far Have They Developed’, Assistive Technology, vol. 27, nr. 2, pp. 88-100, apr. 2015, doi: 10.1080/10400435.2014.978916.
 [^7]:  T. Belpaeme, J. Kennedy, A. Ramachandran, B. Scassellati, en F. Tanaka, ‘Social robots for education: A review’, Sci. Robot., vol. 3, nr. 21, p. eaat5954, aug. 2018, doi: 10.1126/scirobotics.aat5954.
 [^8]: I. H. Han e.a., ‘Human-Robot Interaction and Social Robot: The Emerging Field of Healthcare Robotics and Current and Future Perspectives for Spinal Care’, Neurospine, vol. 21, nr. 3, pp. 868-877, sep. 2024, doi: 10.14245/ns.2448432.216.
