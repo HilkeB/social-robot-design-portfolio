@@ -47,6 +47,11 @@ Color can be used to convey emotions and therefore they also might be interestin
 ### Movement
 Implicit methods such as body movement and motion can be used to convey intent. When a robot has to convey urgency, it can be argued that a minimum socialness should be conveyed. When reviewing the work of Francis et al. [^9] several guidelines to ensure social robot path finding and movement can be found: Safety, Comfort, Legibility, Politeness, Social Competence, Understanding other agents, proactivity and responding appropriately. To create the movement component of the toolkit, the importance of adhering to these set guidelines will be discussed (with respect to the content of the paper [^9]). 
 
+![Movement guidlines](images/table.png)
+/// caption
+Movement guidelines inspired by the paper of Francis et al. [^9]. 
+/// 
+
 [^9]: A. Francis e.a., ‘Principles and Guidelines for Evaluating Social Robot Navigation Algorithms’, J. Hum.-Robot Interact., vol. 14, nr. 2, pp. 1-65, jun. 2025, doi: 10.1145/3700599.
 
 ### Step by step plan of toolkit
@@ -59,4 +64,5 @@ Toolkit and example scenario.
 
 ### Video
 
-<iframe width="315" height="560" src="https://www.youtube.com/embed/lp1jXDmAECw" title="Exploration of emotions and urgency Sphero" frameborder="0" allowfullscreen></iframe>
+After the creation of the toolkit, we explored several combinations of emotions and levels of urgency. Unfortunately the colors are not really visible in this video. 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lp1jXDmAECw?si=lKo0WCg8b0NQTwuf" title="Exploration of emotions and urgency Sphero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
