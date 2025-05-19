@@ -15,7 +15,7 @@ Furhat, Form Stephen McCarty sources via WikiMedia' [^4].
 [^4]: RISEConf, English:  10 July 2019; Furhat Robotics Press Conference in the Media Village during day two of RISE 2019 at the Hong Kong Convention and Exhibition Centre in Hong Kong. Photo by Stephen McCarthy/RISE via Sportsfile. 2019. Accessed: May 19th  2025. [Online]. Available via: https://commons.wikimedia.org/wiki/File:RISE_2019_-_44.jpg
 
 
-## Can you find insights or work on dealing in a structured way with the robotic capabilities and social aspects of the design? Are they the same? Could you formulate requirements for social interaction in a similar (structural) way as 'normal' engineering requirements are formulated?
+## robotic capabilities vs social aspects of the design
 When a product, or a robot, is designed requirements are created beforehand. These requirements specify what a product should be able to do, what its purpose is, how it should function and what it should achieve. 
 
 When a product or robot is designed with only robotic capabilities in mind, different requirements will be created. Relevant questions which can be asked for this purpose are:
@@ -43,9 +43,23 @@ These questions differ greatly from the engineering centered questions. However,
 [^5]: ‘What are Agile frameworks?’, GeeksforGeeks. Accessed: May 19th  2025. [Online]. Available at: https://www.geeksforgeeks.org/what-are-agile-frameworks/
 [^6]: Mao, Ji-Ye, et al. "User-centered design methods in practice: a survey of the state of the art." Proceedings of the 2001 conference of the Centre for Advanced Studies on Collaborative research. 2001.
 
-## Can you find examples where there is a clear conflict in design aspects that come from 'function defines form' and from social requirements? Can you come up with a design that has a very good match?
+## function defines form' vs social requirements?
+Classical examples of robots with a clear conflict in design aspects that come from function defines and from social requirements are industrial robots which are utilized in a social setting. Often a screen is added to it and some speakers, however these robots were not designed to be interactive and social.
 
-## Duffy formulated a nice reference list of aspects relevant for design of embodiment. Which of these are the most relevant for your case?
+A robot which shows a great form fits function is the SPOT robot [^7], this robot is created to walk on rough terrains and due to the design of the robot is doing so very well. It does, however, not always fit the mental picture of people viewing the robot. The robot can be considered cute; however, it is an industrial robot with a lot of power. Since it is not designed or utilized as being cute and interactive, the form does suit the function well.
+
+A robot that is designed to be interactive and social and thus has a good balance between form and function is the Paro robot[^8]. It is fluffy, it is cute, it is approachable due to its form. In addition, the robot seal can react in a social way by tailoring its responds to the users’ needs. 
+
+![Blocks](images/paro.jpg)
+/// caption
+Robotic robot seal, by T. museet/Peter Häll via Wikimedia commons [^9].
+/// 
+
+[^7]:]‘Spot’, Boston Dynamics. Accessed: May 19th 2025. [Online]. Available at: https://bostondynamics.com/products/spot/
+[^8]: ‘PARO Therapeutic Robot’. Accessed: May 19th 2025. [Online]. Available at: http://www.parorobots.com/
+[^9]: T. museet/Peter Häll, Svenska:  Terapeutisk robotsäl ‘Paro’, i hölje av vitt teddytyg. Innehåller sensorer, elektronik och servomotorer för att kunna reagera på beröring. Laddning sker genom munnen, kontakten är maskerad som napp. Knapp för start finns mellan de bakre fenorna. 2018. Accessed May 19th 2025. [Online]. Avaiable at: https://commons.wikimedia.org/wiki/File:Robots%C3%A4len_Paro_TEKS0057912.jpg
+
+## Relevant insights of Duffy with respect to our project case
 On the website of Edwin Dertien [^9] a concise summary of the work by Duffy [^10] is provided:
 
 !!! quote

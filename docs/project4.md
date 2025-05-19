@@ -10,6 +10,7 @@ My group members designed a toolkit which can help researchers and designers to 
  My group chose to make the components modular to allow for the exploration of a wide range of robots and types of embodiments. 
 
 To provide a bit of guidance during the embodiment exploration, a user is asked to provide some input, which is later mapped to colors, shapes and technical blocks. 
+
 -	First the user is asked if there is a target emotion. When the emotion is positive, a yellow fundamental block in a circular shape is suggested. When the target emotion is neutral, a green fundamental block with a square or rectangular shape is suggested. When the target emotion is negative, a blue triangular fundamental block is suggested. The mapped colors were found in the work of Jonauskaite & Mohr [^2] and Kumarasamy et al. [^3]. The mapped shapes were found by reviewing the works of Strohmeier et al. [^4],[^5]
 -	After this, the user is asked about the preferred type of feedback. This input is mapped to one, or two relevant and fitting technical building blocks. 
 -	Lastly, the target group is asked. When the target group are children, the block sizes will be smaller and when the target groups consist of adults larger blocks will be utilized. 
