@@ -33,7 +33,7 @@ The second toolkit was not itterative upon this week since it was already tesed 
 
 After a reflective conversation with the entire group, it was still possible to fill in the POEMS framework.
 
-![POEMS framework expressive toolkit case study](images/1.png
+![POEMS framework expressive toolkit case study](images/1.png)
 /// caption
 POEMS framework [^1] expressive toolkit case study
 /// 
