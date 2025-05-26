@@ -6,17 +6,20 @@ The first toolkit which was created for this course was a scenario based toolkit
 
 ![Online prototype scenario based tool](images/wheels.png)
 /// caption
-Online prototype scenario based tool/// 
+Online prototype scenario based tool
+/// 
 
 However, to test the toolkit in a physical and collaborative setting, three physcical dice were created:
 
 ![Physical dice](images/scenario_prototype.png)
 /// caption
-HRI dices prototype/// 
+HRI dices prototype
+/// 
 
 ![POEMS framework scenario-based toolkit case study](images/2.png)
 /// caption
-POEMS framework [^1] scenario-based toolkit case study [^1]/// 
+POEMS framework [^1] scenario-based toolkit case study [^1]
+/// 
 
 [^1]: ‘POEMS – Research Tool - Nova’. Accessed: May 25th 2025. [Online]. Available at: https://novatools.org/poems-research-tool/
 
@@ -40,7 +43,8 @@ After a digital visual prototype, a paper prototype was created to test the embo
 
 ![embodiment prototype](images/embodiment_prototype.jpg)
 /// caption
-Embodiment prototype/// 
+Embodiment prototype
+/// 
 
 ![POEMS framework embodiment toolkit case study](images/3.png)
 /// caption
@@ -52,4 +56,5 @@ After the case study, the follow three emodiment explorations were created:
 
 ![Embodiment exploration](images/result.png)
 /// caption
-Results of the embodiment case study/// 
+Results of the embodiment case study
+/// 
