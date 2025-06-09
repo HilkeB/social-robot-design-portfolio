@@ -9,7 +9,7 @@ During the lesson my group and I [^2] explored the possiblility to involvo a rob
 
 ![ethical toolkit](images/storyboard.png)
 /// caption
-Ethical toolkit [^3], [^4], [^5], [^6]
+Ethical toolkit [^3], [^4], [^5], [^6], [^7]
 /// 
 
 [^2]: F. den Brok, S. Nanwani, D. Doeleman, R. den Otter, H. van den Born
