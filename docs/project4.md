@@ -28,5 +28,5 @@ To provide a bit of guidance during the embodiment exploration, a user is asked 
 
 ![Blocks](images/project_image.png)
 /// caption
-Designed embodiment toolkit [^1].
+Designed embodiment toolkit designed by group[^1], drawn by me.
 /// 
