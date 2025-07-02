@@ -32,7 +32,7 @@ ROSE as the teacher.
 
 ### ROSE the companion
 
-![ROSE as the companion](images/table_companion.png)
+![ROSE as the companion](images/table%20companion.png)
 /// caption
 ROSE as the companion.
 /// 
