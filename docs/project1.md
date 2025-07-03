@@ -26,3 +26,5 @@ After the exploration of the problem space and the creation of the building bloc
 /// caption
 Slide representing the three final cases for ROSE
 ///
+
+[Next week](project2.md) one of these scenario's will be further explored.

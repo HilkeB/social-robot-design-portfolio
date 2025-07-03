@@ -21,7 +21,7 @@ ROSE as the empath.
 
 ### ROSE the protector
 
-![ROSE as the protector](images/table_protector.png)
+![ROSE as the protector](images/protec_new.png)
 /// caption
 ROSE as the protector.
 /// 
@@ -35,7 +35,7 @@ ROSE as the teacher.
 
 ### ROSE the companion
 
-![ROSE as the companion](images/table_companion.png)
+![ROSE as the companion](images/comp_new.png)
 /// caption
 ROSE as the companion.
 /// 

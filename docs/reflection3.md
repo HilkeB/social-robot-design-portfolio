@@ -1,4 +1,3 @@
-Social Robot design week 3
 ## Design rules for motion
 In the paper ‘Designing Robots With Movement in Mind’ by Hoffman & Ju [^1], an expressive movement centered approach is explored in the context of robot design. According to Hoffman & Ju, the main focus of the design process should be on the quality and properties of movements. This means that the aesthetics of the robot is secondary to the motion. By focusing on movement, the internal state, personality, intention and mood of a robot can be conveyed.
 
