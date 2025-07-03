@@ -1,19 +1,19 @@
 !!! warning
-    Due to sickness, I was unable to attend the lecture on Embodiment, because of this I did not take part in the group work of this week since my group members [^1] were able to finish the work during the lecture. 
+    Due to sickness, I was unable to attend the lecture on Embodiment; because of this, I did not take part in the group work of this week since my group members [^1] were able to finish the work during the lecture. 
 
-My group members designed a toolkit which can help researchers and designers to develop a fitting appearance for an interactive robot. The created toolkit consists of three types of building blocks which can be combined to experiment with the embodiment of a robot:
+My group members designed a toolkit that can help researchers and designers develop a fitting appearance for an interactive robot. The created toolkit consists of three types of building blocks that can be combined to experiment with the embodiment of a robot:
 
--	Fundamental blocks: Basis shapes in different shapes and colors can be utilized as the basis of the robot. These fundamental blocks will be fully covered in Velcro to allow a designer to stick another block onto it. 
--	Additional props: A unique appearance of the robot, in addition to facial expression can be achieved by utilizing different types of wooden fruits and vegetables. These wooden foods can be ‘cut’ since they are held together with Velcro. The wooden food parts can be Velcro-ed onto the fundamental blocks.
--	Technical building blocks: The technical part of a social robot can be added via the technical blocks. My group added these types of blocks to allow for the exploration of socialness and technical capabilities of a robot. Examples of technical blocks are servo motors, LED screens, LED lights, buttons, speakers, a camera module, two grabbing claws and multiple attachable wheels. These technical blocks can Velcro-ed to the fundamental blocks. 
+-   Fundamental blocks: Basis shapes in different shapes and colors can be utilized as the basis of the robot. These fundamental blocks will be fully covered in Velcro to allow a designer to stick another block onto it. 
+-   Additional props: A unique appearance of the robot, in addition to facial expression, can be achieved by utilizing different types of wooden fruits and vegetables. These wooden foods can be ‘cut’ since they are held together with Velcro. The wooden food parts can be Velcro-ed onto the fundamental blocks.
+-   Technical building blocks: The technical part of a social robot can be added via the technical blocks. My group added these types of blocks to allow for the exploration of the socialness and technical capabilities of a robot. Examples of technical blocks are servo motors, LED screens, LED lights, buttons, speakers, a camera module, two grab claws, and multiple attachable wheels. These technical blocks can be Velcro-ed to the fundamental blocks. 
 
  My group chose to make the components modular to allow for the exploration of a wide range of robots and types of embodiments. 
 
 To provide a bit of guidance during the embodiment exploration, a user is asked to provide some input, which is later mapped to colors, shapes and technical blocks. 
 
--	First the user is asked if there is a target emotion. When the emotion is positive, a yellow fundamental block in a circular shape is suggested. When the target emotion is neutral, a green fundamental block with a square or rectangular shape is suggested. When the target emotion is negative, a blue triangular fundamental block is suggested. The mapped colors were found in the work of Jonauskaite & Mohr [^2] and Kumarasamy et al. [^3]. The mapped shapes were found by reviewing the works of Strohmeier et al. [^4],[^5]
--	After this, the user is asked about the preferred type of feedback. This input is mapped to one, or two relevant and fitting technical building blocks. 
--	Lastly, the target group is asked. When the target group are children, the block sizes will be smaller and when the target groups consist of adults larger blocks will be utilized. The embodiment toolkit will be tested, evaluated and linked to literature during the case study in [week 5](project5.md)
+-   First the user is asked if there is a target emotion. When the emotion is positive, a yellow fundamental block in a circular shape is suggested. When the target emotion is neutral, a green fundamental block with a square or rectangular shape is suggested. When the target emotion is negative, a blue triangular fundamental block is suggested. The mapped colors were found in the work of Jonauskaite & Mohr [^2] and Kumarasamy et al. [^3]. The mapped shapes were found by reviewing the works of Strohmeier et al. [^4],[^5]
+-   After this, the user is asked about the preferred type of feedback. This input is mapped to one, or two relevant and fitting technical building blocks. 
+-   Lastly, the target group is asked. When the target groups are children, the block sizes will be smaller, and when the target groups consist of adults, larger blocks will be utilized. The embodiment toolkit will be tested, evaluated, and linked to literature during the case study in [week 5](project5.md)
 
 [^1]: F. den Brok, S. Nanwani, D. Doeleman, R. den Otter
 
@@ -30,5 +30,3 @@ To provide a bit of guidance during the embodiment exploration, a user is asked 
 /// caption
 Designed embodiment toolkit designed by group[^1], drawn by me.
 /// 
-
-
