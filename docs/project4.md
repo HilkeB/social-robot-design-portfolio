@@ -13,7 +13,7 @@ To provide a bit of guidance during the embodiment exploration, a user is asked 
 
 -	First the user is asked if there is a target emotion. When the emotion is positive, a yellow fundamental block in a circular shape is suggested. When the target emotion is neutral, a green fundamental block with a square or rectangular shape is suggested. When the target emotion is negative, a blue triangular fundamental block is suggested. The mapped colors were found in the work of Jonauskaite & Mohr [^2] and Kumarasamy et al. [^3]. The mapped shapes were found by reviewing the works of Strohmeier et al. [^4],[^5]
 -	After this, the user is asked about the preferred type of feedback. This input is mapped to one, or two relevant and fitting technical building blocks. 
--	Lastly, the target group is asked. When the target group are children, the block sizes will be smaller and when the target groups consist of adults larger blocks will be utilized. 
+-	Lastly, the target group is asked. When the target group are children, the block sizes will be smaller and when the target groups consist of adults larger blocks will be utilized. The embodiment toolkit will be tested, evaluated and linked to literature during the case study in [week 5](project5.md)
 
 [^1]: F. den Brok, S. Nanwani, D. Doeleman, R. den Otter
 

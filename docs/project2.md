@@ -34,8 +34,14 @@ Digitalized exploration of ROSE as a co-amputee.
 
 During this brainstorm several building blocks were found which were needed to create a robotic system that could function as a co-amputee. And with these building blocks in mind, several broader themes and applications can be identified: ROSE as mental support and ROSE as coach helping with tasks. This functioned as the basis for the creation of our story cubes.
 
-## Dices
-It was decided that a total of three dices would be created as part of our brainstorming method. Above, two main HRI themes have already been identified: ROSE as mental support (encouragement and aid) and ROSE as coach helping with tasks (Application area). These two categories will both receive their own story dice (below a more detailed elaboration on the story cubes can be found). In addition, the lessons and the reflections taught us that positive, negative and maybe neutral scenarios should be explored when it comes to HRI. Because of this, a third dice was added which can tell a designer which type of outcome a scenario should have. 
+## Dice
+It was decided that a total of three dices would be created as part of our brainstorming method. Above, two main HRI themes have already been identified: ROSE as mental support (encouragement and aid) and ROSE as coach helping with tasks (Application area). These two categories will both receive their own story dice (below a more detailed elaboration on the story cubes can be found). In addition, the lessons and the reflections taught us that positive, negative and maybe neutral scenarios should be explored when it comes to HRI. Because of this, a third dice was added which can tell a designer which type of outcome a scenario should have. The scenario based toolkit will be tested, evaluated and linked to literature during the case study in [week 5](project5.md)
+
+
+![Online prototype scenario based tool](images/wheels.png)
+/// caption
+Online prototype scenario based tool
+/// 
 
 ### Dice 1: Application areas which are linked to HRI 
 Several application areas of HRI were found:

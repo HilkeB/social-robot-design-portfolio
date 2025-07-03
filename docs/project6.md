@@ -40,6 +40,8 @@ ROSE as the teacher.
 ROSE as the companion.
 /// 
 
+The behavioural toolkit will be tested, evaluated and linked to literature during the case study in [week 8](project8.md)
+
 [^1]: https://www.cogniron.org/final/RA3.php  "COGNIRON - The Cognitive Robot Comp
 [^2]: Schwartz, H. A., Eichstaedt, J. C., Kern, M. L., Dziurzynski, L., Ramones, S. M., Agrawal, M., ... & Ungar, L. H. (2013). Personality, gender, and age in the language of social media: The open-vocabulary approach. PLOS ONE, 8(9), e73791. https://doi.org/10.1371/journal.pone.0073791
 [^3]: Tausczik, Y. R., & Pennebaker, J. W. (2010). Personality and language use in self-narratives. Journal of Research in Personality, 44(4), 463–470. https://doi.org/10.1016/j.jrp.2010.05.003

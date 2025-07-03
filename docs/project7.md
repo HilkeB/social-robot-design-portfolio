@@ -22,7 +22,7 @@ During the lesson my group and I [^1] explored the possiblility to involvo a rob
 Ethical toolkit [^3], [^4], [^5], [^6], [^7]
 /// 
 
-In the reflection of this week, the question if a robot should be a stakeholder in ethical discussions will be evaluated. 
+In the [reflection](reflection7.md) of this week, the question if a robot should be a stakeholder in ethical discussions will be evaluated and the will be tested, evaluated and linked to literature during the case study in [week 8](project8.md)
 
 [^1]: F. den Brok, S. Nanwani, D. Doeleman, R. den Otter, H. van den Born
 [^3]: T. Ye, T. Minato, K. Sakai, H. Sumioka, A. Hamilton, en H. Ishiguro, ‘Human-like interactions prompt people to take a robot’s perspective’, Front. Psychol., vol. 14, p. 1190620, okt. 2023, doi: 10.3389/fpsyg.2023.1190620.

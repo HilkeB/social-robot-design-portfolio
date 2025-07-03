@@ -2,7 +2,7 @@ During this week’s project meeting a case study was conducted to test the crea
 
 ## Toolkit 1: A scenario-based toolkit
 
-The first toolkit which was created for this course was a scenario based toolkit. 
+The first toolkit which was created for this course was a [scenario based toolkit](project2.md). 
 
 ![Online prototype scenario based tool](images/wheels.png)
 /// caption
@@ -40,7 +40,7 @@ After testing of the toolkit we concluded that the dice are a nice tool to explo
 
 ## Toolkit 2: An expressive toolkit
 
-The expressive was not iterated upon this week since it was already tesed in detail and it was not possible to gain access to a Sphero robot in time. Below, a video can be found which was recored during the fourth week of this course.
+[The expressive toolkit](project3.md) was not iterated upon this week since it was already tesed in detail and it was not possible to gain access to a Sphero robot in time. Below, a video can be found which was recored during the third week of this course.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lp1jXDmAECw?si=lKo0WCg8b0NQTwuf" title="Exploration of emotions and urgency Sphero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -55,7 +55,7 @@ POEMS framework [^1] expressive toolkit case study
 During the discussion we as a group had about our expressive toolkit we discussed to outcome of our test. During the test a Sphero robot was used and this was a good choice since the lack of humanized features on the timy robot ball allowed us to only review the movement and expression without being distracted. The Sphero was however a bit hard to control and the colors of the ligths were not really visible. Despite this, the toolkit provided us a good foundation to test the expression of urgency through movement. It was concluded by the group that especially high urgency and a low level of urgency (roaming behavior) were expressible via movement patterns. The level of some urgency was a bit harder to convey since it relied on a lot of nuances. 
 
 ## Toolkit 3: An embodiment toolkit
-After a digital prototype, a paper prototype was created by me to test the embodiment toolkit. Three of the participants were tasked with cretaing an robot embodiement which suited their wants and needs.
+After a [digital prototype](project4.md), a paper prototype was created by me to test the embodiment toolkit. Three of the participants were tasked with cretaing an robot embodiement which suited their wants and needs.
 
 ![embodiment prototype](images/embodiment_prototype.jpg)
 /// caption
@@ -67,7 +67,7 @@ Embodiment prototype
 POEMS framework [^1] embodiment toolkit case study
 /// 
 
-The fllowing three robot embodiements were created (from left to right):
+The following three robot embodiements were created (from left to right):
 
 - The robot should be a positive and approachable robot which finds its way through sonar. To achieve this, two speakers were placed on the fundamental block and represented the eyes of the robot. In addition, a blueberry representing the receiver was added to the robot.
 - The blue color was used to evoke calm and negative, sad emotions, since this robot is a robot to talk to when you are sad and therefore it needs to be empathic and show it feels you. Ears since it can hear and make sounds (beeps). I also gave it a nose and eyes since it is a social robot which is made for interaction with humans. The joystick on the head can be used to provide input in the robot and set it to different modes such as listening, cheering up, wake up and sleep. 
