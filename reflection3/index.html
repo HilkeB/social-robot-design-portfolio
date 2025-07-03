@@ -1,0 +1,1034 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="HilkeB">
+      
+      
+        <link rel="canonical" href="https://hilkeb.github.io/social-robot-design-portfolio/reflection3/">
+      
+      
+        <link rel="prev" href="../reflection2/">
+      
+      
+        <link rel="next" href="../reflection4/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Week 3 - Portfolio Social Robot Design</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#design-rules-for-motion" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Portfolio Social Robot Design" class="md-header__button md-logo" aria-label="Portfolio Social Robot Design" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Portfolio Social Robot Design
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Week 3
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../project1/" class="md-tabs__link">
+          
+  
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../reflection1/" class="md-tabs__link">
+          
+  
+  
+  Reflection
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Portfolio Social Robot Design" class="md-nav__button md-logo" aria-label="Portfolio Social Robot Design" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    Portfolio Social Robot Design
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Project
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reflection
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Reflection
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Week 3
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 3
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#design-rules-for-motion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design rules for motion
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#downsides-and-alternatives-of-designing-robot-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Downsides and alternatives of designing robot communication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hhi-as-a-starting-point-for-designing-hri" class="md-nav__link">
+    <span class="md-ellipsis">
+      HHI as a starting point for designing HRI
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#labans-work-on-characterizing-emotion-applied-to-sound-and-other-modalities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Laban’s work on characterizing emotion applied to sound and other modalities
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#designing-anti-social-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Designing anti-social behavior.
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Week 3</h1>
+
+<h2 id="design-rules-for-motion">Design rules for motion</h2>
+<p>In the paper ‘Designing Robots With Movement in Mind’ by Hoffman &amp; Ju <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, an expressive movement centered approach is explored in the context of robot design. According to Hoffman &amp; Ju, the main focus of the design process should be on the quality and properties of movements. This means that the aesthetics of the robot is secondary to the motion. By focusing on movement, the internal state, personality, intention and mood of a robot can be conveyed.</p>
+<p>The authors of the paper also encouraged the design of non-humanoid robots. This is due to the fact that if motion and movement is designed well, a designer does not have to focus on other expressive commodities: the well designed movement is enough. In addition, a designer has more freedom of exploration when they are not constrained by the human-form and therefore it leads to open-ended design possibilities. It also might help to reduce costs, a robot with less degrees of freedom is cheaper to produce and allows for more rapid prototyping. Lastly, a non-humanoid robot might lead to more acceptance. According to Hoffman &amp; Ju, a more abstract robot allows for the user’s imagination without being constrained to pre-learned judgements.  </p>
+<p>To create well designed motion, the authors explored four design challenges or steps: discovery, implementation, appearance-matching and validation.</p>
+<ul>
+<li>Discovery: The right movements and motions for a robot should be explored or discovered. Collaboration with actors, dancers or animators might allow for valuable insight. In addition, prototype techniques such as Wizard of Ozzing or other participatory methods are most suitable for this step.</li>
+<li>Implementation: A mechanical system which allows for the discovered movements should be designed. The expressive movement of the robot is most important for this stage and because of this, Degrees of Freedom should be explored to allow for smooth and organic movements.</li>
+<li>Matching form to movement: After the movement is defined, the form of the robot should be created in such a way that it supports the intended movements. The form of the robot can be explored via rapid prototypes tools or via the creation of physical mock-ups.</li>
+<li>Validation: The robot should be evaluated on its purpose: does the robot achieve the envisioned purpose? </li>
+</ul>
+<p>This paper is highly relevant to our project work for this week for which we created a toolkit to explore the expression of a robot through movement and color. By focusing on non-verbal communication via a non-humanoid robot, we were able to explore the conveyed urgency of a robot. </p>
+<h2 id="downsides-and-alternatives-of-designing-robot-communication">Downsides and alternatives of designing robot communication</h2>
+<p>As explored in the previous reflective question it can be concluded that designing robot movement and communication can be seen as a valuable tool. It helps design in a goal oriented way and reduces the time to develop social robotic systems.</p>
+<p>Despite these positive attributes, some downside of designing robot communication can also be identified. First, a strictly designed robot communication can hinder the creativity of the designer and user. If robot communication is only designed via a framework or design strategy, there is little room for creative exploration. Communication is creative, non-standard and highly personal. An interesting example of exploring beyond the established human-robot communication methodology is the work of Chang et al. <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> in which Olfactory stimuli were explored. It was found that these stimuli can create a bigger perceived friendliness.</p>
+<p>Another form of exploration beyond the established guidelines and techniques is theater. During the lecture and on the Wiki <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> several examples were provided in which aspects of robot communication (body language, tone of voice etc.) were explored by actors. This method allows for creative, fast and iterative exploration,</p>
+<h2 id="hhi-as-a-starting-point-for-designing-hri">HHI as a starting point for designing HRI</h2>
+<p>Human-Human Interaction (HHI) can be a valuable starting point when designing Human-Robot Interaction since it allows humans to easily recognize the communication styles when applied to robots. However, the extent in which HHI is mapped to HRI is an important factor to consider. The work of Knight and Simmons <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> explored the effectiveness of the Laban movement analysis on social robot communication. </p>
+<p>The Laban movement analysis <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> is a framework in which human movement is described in the categories of Body (which parts of the body are moving?), Effort (how heavy or light does a movement feel?), Shape (how does the body move and change form?) and Space (How does the movement relate to the environment?). The work of Knight and Simmons <sup id="fnref2:4"><a class="footnote-ref" href="#fn:4">4</a></sup> explores the expression of emotions in robots with a limited set of degrees of freedom. This means that robots were used which are not fully like humans and have less movement possibilities. It was found that by applying the Laban movement principles to these robots did results in readable expressiveness. </p>
+<p>This shows that HHI can be considered a valuable starting point for HRI, however some freedom is still allowed. A robot does not have to be a full humanoid copy. However, by following universal human movement patterns, a solid foundation is ensured. </p>
+<h2 id="labans-work-on-characterizing-emotion-applied-to-sound-and-other-modalities">Laban’s work on characterizing emotion applied to sound and other modalities</h2>
+<p>Sound can function as a communication method. In the work of Francoise et al. <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> the Laban movement analysis is applied to create movement through sound. For this research the Effort factors of Effort Weight and Time, as described by Laban <sup id="fnref2:5"><a class="footnote-ref" href="#fn:5">5</a></sup> were used. It was found that the participants (dances) felt connected to the sound, one participant stated that they were trying to figure out how to mimic the sound and that they felt that their body had the vocabulary to do it. A meaningful link between movement and sound base don the Laban movement can be seen during the research.</p>
+<p>When reflecting on which aspects of sound can be applied to Labans’ movement framework the Effort factors (Space, weight, Time, Flow) can, in my opinion, be meaningfully mapped:</p>
+<ul>
+<li>Space-&gt; How does the movement relate to the environment? The relative direction of space of a sound can be represented by the sharpness and volume of a sound. </li>
+<li>Weight-&gt; Is the movement light or heavy? This can be mapped to the pitch and loudness of a sound. A light movement can be represented by a high pitched soft sound while a heavy movement might be represented by a low and low sound.</li>
+<li>Flow and Time-&gt; What is the flow of a movement? Is the movement sudden or slow or sustained?  This can be also represented via sound by for example adding glissando’s (I would interpret this as a flowing and possibly sustained movement) or by playing staccato notes (I would interpret this as controlled, sharp and fast movements). </li>
+</ul>
+<p>Other modalities on which Laban’s work might be meaningfully applied are color and color transitions. Is the color perceived as warm or cold, round or sharp? How is the color transition: fast, sudden, isolated? Which colors are combined, are they harmonious, do they clash?</p>
+<h2 id="designing-anti-social-behavior">Designing anti-social behavior.</h2>
+<p>During the project session of this week the work of Franscis et al. <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup> on social robot path finding was explored. Several guidelines for nonverbal social robot behavior were found: Safety, Comfort, Legibility, Politeness, Social Competence, understanding other agents, proactivity and responding appropriately. When a robot adheres to these guidelines, social behavior is often achieved. This does also mean that anti social behavior can be designed by breaking these guidelines. Examples of antisocial behavior which can be achieved by breaking these guidelines are sudden and non-fluent movements, entering the personal zone of a user, non-polite behavior or uncontrolled behavior. </p>
+<p>There is however a difference between the absence of social behavior and designed anti social behavior. The absence of social behavior could be interpreted as a shy, or a socially disadvantaged robot. However, when a robot is designed with anti social behavior in mind, the intent is different since a robot purposefully engages in anti social behavior.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>G. Hoffman en W. Ju, ‘Designing Robots With Movement in Mind’, Journal of Human-Robot Interaction, vol. 3, nr. 1, p. 89, mrt. 2014, doi: 10.5898/JHRI.3.1.Hoffman.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>F. Chang e.a., ‘Crossmodal Interactions in Human-Robot Communication: Exploring the Influences of Scent and Voice Congruence on User Perceptions of Social Robots’, in Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, Yokohama Japan: ACM, apr. 2025, pp. 1-15. doi: 10.1145/3706598.3713825.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>‘education:socialrobotdesign:03_expression [Electronic Thingies for Fun Stuff]’. Accessed: May 12th  [Online]. Available at: https://wiki.edwindertien.nl/doku.php?id=education:socialrobotdesign:03_expression&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>H. Knight en R. Simmons, ‘Laban head-motions convey robot state: A call for robot body language’, in 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden: IEEE, mei 2016, pp. 2881-2888. doi: 10.1109/ICRA.2016.7487451.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>‘Laban movement analysis’, Wikipedia. September 27th 2024. Accessed May 14th [Online]. Available at: https://en.wikipedia.org/w/index.php?title=Laban_movement_analysis&amp;oldid=1248108012&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>J. Françoise, S. Fdili Alaoui, T. Schiphorst, en F. Bevilacqua, ‘Vocalizing dance movement for interactive sonification of laban effort factors’, in Proceedings of the 2014 conference on Designing interactive systems, Vancouver BC Canada: ACM, jun. 2014, pp. 1079-1082. doi: 10.1145/2598510.2598582.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>A. Francis e.a., ‘Principles and Guidelines for Evaluating Social Robot Navigation Algorithms’, J. Hum.-Robot Interact., vol. 14, nr. 2, pp. 1-65, jun. 2025, doi: 10.1145/3700599.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../reflection2/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Week 2">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Week 2
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../reflection4/" class="md-footer__link md-footer__link--next" aria-label="Next: Week 4">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Week 4
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.action.edit", "content.action.view", "content.tooltips", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "toc.integrate", "toc.follow", "navigation.footer"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>

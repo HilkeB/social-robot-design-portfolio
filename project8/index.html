@@ -1,0 +1,1045 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="HilkeB">
+      
+      
+        <link rel="canonical" href="https://hilkeb.github.io/social-robot-design-portfolio/project8/">
+      
+      
+        <link rel="prev" href="../project7/">
+      
+      
+        <link rel="next" href="../reflection1/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Week 8 - Portfolio Social Robot Design</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#toolkit-4-behavioral-toolkit" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Portfolio Social Robot Design" class="md-header__button md-logo" aria-label="Portfolio Social Robot Design" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Portfolio Social Robot Design
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Week 8
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../project1/" class="md-tabs__link">
+          
+  
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../reflection1/" class="md-tabs__link">
+          
+  
+  
+  Reflection
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Portfolio Social Robot Design" class="md-nav__button md-logo" aria-label="Portfolio Social Robot Design" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    Portfolio Social Robot Design
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Project
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Week 8
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 8
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#toolkit-4-behavioral-toolkit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Toolkit 4: Behavioral toolkit
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Toolkit 4: Behavioral toolkit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#insights-after-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Insights after testing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tookit-5-ethical-toolkit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tookit 5: Ethical toolkit
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tookit 5: Ethical toolkit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#insights-after-testing_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Insights after testing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reflection
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Reflection
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+  <h1>Week 8</h1>
+
+<p>During this week’s project meeting, a case study was conducted to test the created behavior- and ethical toolkits. </p>
+<h2 id="toolkit-4-behavioral-toolkit">Toolkit 4: Behavioral toolkit</h2>
+<p>During the <a href="../project6/">sixth week</a> of this course, a behavioral toolkit was created by my group and I <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. To test this toolkit, a total of five character sheets were physicalized by F. den Brok:</p>
+<figure>
+<p><img alt="personality sheets" src="../images/personalities.jpg" /></p>
+<figcaption>
+<p>Personality sheets were physicalized by F. den Brok.</p>
+</figcaption>
+</figure>
+<p>To test this toolkit, we took inspiration from the theater-style type of exploration as shown during multiple lectures. A total of three group members took part in the role-playing; the other two group members watched and took on the roles of observer and notetaker. The toolkit was tested during the following scenario:</p>
+<ul>
+<li>ROSE is a care robot that is being utilized in an elderly care home. In this elderly care home, the patients need personalized care. A caregiver who knows the patients chooses the fitting personality type for ROSE and after this, ROSE is ready to help the patients. </li>
+</ul>
+<p>Below, a video of two of the runs can be found. The first patient was a grumpy old man who only wanted to take blue pills. Unfortunately, his pills are not blue. The caregiver selected the protector personality for ROSE since the patient needs clear communication and a firm hand. During the second scenario, ROSE encounters an old lady who is roaming around the halls of the care home. Unsure how to get back to the living room, she accepts the assistance of ROSE who is programmed as an empath.</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sDCIbt0dpWc?si=sDCIbt0dpWcuf" title="Exploration of different ROSE personalities" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: block; margin: 0 auto;"></iframe>
+
+<p>The video above was published with the consent of the people who were filmed. However, to protect their privacy online, the roles POEMS framework below are not specified. This is to ensure that the names of the people visible in the video are not directly linkable to their image. </p>
+<figure>
+<p><img alt="POEMS framework behavioral toolkit case study" src="../images/behavioural_casestudy.png" /></p>
+<figcaption>
+<p>POEMS framework <sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup> behavioral toolkit case study.</p>
+</figcaption>
+</figure>
+<h3 id="insights-after-testing">Insights after testing</h3>
+<p>The behavioral toolkit allowed us to explore the influence of different personalities of ROSE. The theater approach, as often mentioned during the lectures, also allowed for fun and open-ended exploration. It was concluded that the customization of ROSE can be helpful to ensure that elderly patients feel safe and receive the care that they need. One thing we did not do during the case study was review the same scenario with different personality types. Currently, we only explored personality types that we deemed to be the best fit to the scenario's. It would have been interesting to see how the scenarios would have played out when ROSE is programmed differently. </p>
+<h2 id="tookit-5-ethical-toolkit">Tookit 5: Ethical toolkit</h2>
+<p>During the <a href="../project7/">seventh week</a> an ethical toolkit was created by my group and I <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. This toolkit was also tested on 10-07-2025 in Design Lab. Two of my group members (D. Doeleman and R. Den Otter) prepared the content of the conversation. Just like the behavioral toolkit, this toolkit was also tested via role playing. The two earlier mentioned group members play Pepper who showed videos on his tables. R. Den Otter created a scenario in which Pepper had the role of mediator, while D. Doeleman created a scenario in which Pepper presented himself as a sentient being. </p>
+<figure>
+<p><img alt="POEMS framework behavioral toolkit case study" src="../images/ethical_casestudy.png" /></p>
+<figcaption>
+<p>POEMS framework <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> ethical toolkit case study.</p>
+</figcaption>
+</figure>
+<h3 id="insights-after-testing_1">Insights after testing</h3>
+<p>This toolkit provided a really fun and interesting conversation. A clear difference was found between Pepper as a mediator and Pepper presented as a sentient being. During the round in which Pepper functioned more as a mediator, the benefit of using Pepper was the novelty and the utilization of the screen of Pepper. However, during the round in which Pepper functioned as a sentient being, slightly more interesting results were found. When Pepper asked personal questions such as: 'Do I have the right to privacy?', 'Why can people just beat me up?' and 'Am I just a tool for you guys?' the group had a hard time answering these questions. The group felt a sense of compassion and sometimes awkwardness, not sure how to express their belief that Pepper is a mere machine instead of a sentient being.</p>
+<p>The exploration of Pepper as a sentient being provided an ethical enrichment. The almost absurdity of discussion ethics with a machine pretending to have feelings and also believing it helped to explore the awkwardness of robot ethics. In addition to this, it showed themes from different perspectives. Themes such as sustainability ('Will you just throw me away after I am broken?'), robots in health care ('Do you think I am capable of providing emotional support to someone?)? Can I cry with them? Be happy for them?') Or societal issues (Why do you use my body to harm others?) can be meaningfully explored in an out-of-the-box way!</p>
+<p>The utilization of Pepper as a sentient being reminded me of the cases of robot anthropomorphism that were discussed during the lectures. I already elaborated upon this during the <a href="../reflection7/">reflection</a> which I added during week 7. The uneasiness with robot mishandling, which was identified by Anthis et al. <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> could be clearly seen during this case study. The presentation of Pepper as a sentient being and the reaction of the people partaking in the discussion were also not fully unexpected. Earlier in this course we discussed the emotional bond between people and their robotic pet <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>. People are able to create strong bonds with robots (reminds me of the movie HER on which I reflected in the reflection of <a href="../reflection1/">week 1</a>) and the exploration of this bond in combination with ethics proved to be successful!</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>F. den Brok, S. Nanwani, D. Doeleman, R. den Otter, H. van den Born&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>‘POEMS – Research Tool - Nova’. Accessed: May 25th 2025. [Online]. Available at: https://novatools.org/poems-research-tool/&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>J. R. Anthis, J. V. T. Pauketat, A. Ladak, en A. Manoli, ‘Perceptions of Sentient AI and Other Digital Minds: Evidence from the AI, Morality, and Sentience (AIMS) Survey’, in Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, Yokohama Japan: ACM, apr. 2025, pp. 1-22. doi: 10.1145/3706598.3713329.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>‘Beloved Robot Dogs Honored in Funeral Cerenomy, National Georgraphic, YouTube’. Accessed: June 9th 2025. [Online]. Available at: https://www.youtube.com/watch?v=85737zfBWXw&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+        
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" hidden>
+        
+          
+          <a href="../project7/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Week 7">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Week 7
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../reflection1/" class="md-footer__link md-footer__link--next" aria-label="Next: Week 1">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Week 1
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.action.edit", "content.action.view", "content.tooltips", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "toc.integrate", "toc.follow", "navigation.footer"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>

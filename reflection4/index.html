@@ -1,0 +1,1062 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="HilkeB">
+      
+      
+        <link rel="canonical" href="https://hilkeb.github.io/social-robot-design-portfolio/reflection4/">
+      
+      
+        <link rel="prev" href="../reflection3/">
+      
+      
+        <link rel="next" href="../reflection5/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Week 4 - Portfolio Social Robot Design</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#is-the-discussion-on-embodied-agents-versus-virtual-agents-still-a-relevant-form-can-you-find-other-hybrid-shapes-too" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Portfolio Social Robot Design" class="md-header__button md-logo" aria-label="Portfolio Social Robot Design" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Portfolio Social Robot Design
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Week 4
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../project1/" class="md-tabs__link">
+          
+  
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../reflection1/" class="md-tabs__link">
+          
+  
+  
+  Reflection
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Portfolio Social Robot Design" class="md-nav__button md-logo" aria-label="Portfolio Social Robot Design" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    Portfolio Social Robot Design
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Project
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reflection
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Reflection
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Week 4
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 4
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#is-the-discussion-on-embodied-agents-versus-virtual-agents-still-a-relevant-form-can-you-find-other-hybrid-shapes-too" class="md-nav__link">
+    <span class="md-ellipsis">
+      Is the discussion on embodied agents versus virtual agents still a relevant form? Can you find other (hybrid) shapes too?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#robotic-capabilities-vs-social-aspects-of-the-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Robotic capabilities vs social aspects of the design
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#function-defines-form-vs-social-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Function defines form vs social requirements?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relevant-insights-of-duffy-with-respect-to-our-project-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      Relevant insights of Duffy with respect to our project case
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Week 4</h1>
+
+<h2 id="is-the-discussion-on-embodied-agents-versus-virtual-agents-still-a-relevant-form-can-you-find-other-hybrid-shapes-too">Is the discussion on embodied agents versus virtual agents still a relevant form? Can you find other (hybrid) shapes too?</h2>
+<p>The discussion on embodied agents versus virtual agents is in my opinion still a relevant discussion due to the rise in virtual agents and social robots. When is something embodied? During a previous reflection, the movie ‘Her’ [^1] raised the question whether Samantha could be considered a social robot. The fact that it was possible to create a deep connection with an agent without conventional physical presence showed that embodied agents can make the same impact as virtual agents. On the other hand, the movie showed that Semantha was physicalized in some way or form by talking though a screen which could be carried around. </p>
+<p>This might suggest that there is a gray area when it comes to embodied agents. Is Semantha embodied because there is a screen? Would Semantha be embodied when she talked through a speaker? And if this is the case, would Semantha be even more embodied when the speaker has some googly eyes attached to it, or a possible picture of Semantha? </p>
+<p>The main question to make a distinction between virtual and embodied agents might be: ‘Which types of communications are possible with a virtual and an embodied agent?.’ A good example to answer this question is the Furhat <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">1</a></sup>, this is a social robot head which has some movement possibilities. A face is projected from the inside of the robot suggesting that the Furhat might be a virtual agent. However, the Furhat is also able to move and therefore can make head gestures and might be able to convey nonverbal emotion through movements when the Laban movement framework <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">2</a></sup> is applied (As discussed in the reflection of last week). This allows for more meaningful and embodied interactions, something which cannot be achieved via a strictly virtual agent. </p>
+<figure>
+<p><img alt="Furhat" src="../images/furhat.jpg" /></p>
+<figcaption>
+<p>Furhat, Form Stephen McCarty sources via WikiMedia' <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">3</a></sup>.</p>
+</figcaption>
+</figure>
+<h2 id="robotic-capabilities-vs-social-aspects-of-the-design">Robotic capabilities vs social aspects of the design</h2>
+<p>When a product, or a robot, is designed requirements are created beforehand. These requirements specify what a product should be able to do, what its purpose is, how it should function and what it should achieve. </p>
+<p>When a product or robot is designed with only robotic capabilities in mind, different requirements will be created. The relevant questions which can be asked for this purpose are:</p>
+<ul>
+<li>What should the robot achieve?</li>
+<li>Which hardware components are needed to create this robot?</li>
+<li>Are there dimensional restrictions?</li>
+<li>How do we ensure human safety when working together with the robot?</li>
+<li>Which software architecture is fitting for our use case?</li>
+<li>Do we need to take the lifecycle of this robot into account during the design process?</li>
+</ul>
+<p>All these questions focus on the capabilities and performance of the robot. After the creation of these requirements, the robot can be developed. This workflow leads to a structured design approach since the requirements are created beforehand via research and client contact. In addition, the requirements can be used to evaluate the robot afterwards. An example of this is the Agile framework <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">4</a></sup> in which the client or customer is centralized in the design process. This ensures that the product meets the functional needs and expectations of the client. </p>
+<p>When a robot is designed with social aspects in mind, the requirements will shift from pure functional requirements to more user centric requirements. This also means that the main focus of the design methods is not the functional needs of a client, but the needs of a customer. These requirements can be created and formulated in the same structured way as the engineering requirements mentioned above. Design methodologies <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">5</a></sup> which are user centric are for example User Centered Design, Co-design, Accessibility design or Heuristic Evaluation.</p>
+<p>These methods shift the focus from the investor/ client to the user and because of this a different set of questions becomes relevant while creating requirements:</p>
+<ul>
+<li>How would a robot achieve the task?</li>
+<li>How should a robot be perceived by the user?</li>
+<li>How will a user interact with the robot?</li>
+<li>Which features are needed to achieve the task?</li>
+<li>How can a robot provide understandable feedback?</li>
+</ul>
+<p>These questions differ greatly from the engineering centered questions. However, in practice the two approaches, as described above, should both be used when a social robot is designed. </p>
+<h2 id="function-defines-form-vs-social-requirements">Function defines form vs social requirements?</h2>
+<p>Classical examples of robots with a clear conflict in design aspects that come from function defines and from social requirements are industrial robots which are utilized in a social setting. Often a screen is added to it and some speakers, however these robots were not designed to be interactive and social.</p>
+<p>A robot which shows a great form fits function is the SPOT robot <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">6</a></sup>, this robot is created to walk on rough terrains and due to the design of the robot is doing so very well. It does, however, not always fit the mental picture of people viewing the robot. The robot can be considered cute; however, it is an industrial robot with a lot of power. Since it is not designed or utilized as being cute and interactive, the form does suit the function well.</p>
+<p>A robot that is designed to be interactive and social and thus has a good balance between form and function is the Paro robot<sup id="fnref:8"><a class="footnote-ref" href="#fn:8">7</a></sup>. It is fluffy, it is cute, it is approachable due to its form. In addition, the robot seal can react in a social way by tailoring its responds to the users’ needs. </p>
+<figure>
+<p><img alt="Blocks" src="../images/paro.jpg" /></p>
+<figcaption>
+<p>Robotic robot seal, by T. museet/Peter Häll via Wikimedia commons <sup id="fnref3:9"><a class="footnote-ref" href="#fn:9">8</a></sup>.</p>
+</figcaption>
+</figure>
+<h2 id="relevant-insights-of-duffy-with-respect-to-our-project-case">Relevant insights of Duffy with respect to our project case</h2>
+<p>On the website of Edwin Dertien <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">8</a></sup> a concise summary of the work by Duffy <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">9</a></sup> is provided:</p>
+<div class="admonition quote">
+<p class="admonition-title">Quote</p>
+<p>He argues for the following guiding principles for building a social robot embodiment: </p>
+<ul>
+<li>use social conventions and communication in function and form</li>
+<li>avoid the uncanny valley</li>
+<li>use natural (fluent) motion</li>
+<li>balance function and form</li>
+<li>balance anthropomorphism and function</li>
+<li>allow the robot to portray identity</li>
+<li>make sure artificial emotions do not obstruct interaction <sup id="fnref2:9"><a class="footnote-ref" href="#fn:9">8</a></sup></li>
+</ul>
+</div>
+<p>The main idea for our case is to utilize the ROSE robot as a co-amputee. The user can re-learn skills and receive emotional support by talking with ROSE and by ‘going through’ the same struggles. For this case some of the guiding principles are highly relevant. </p>
+<p>First, it is mentioned by Duffy that a robot should allow for efficient communication and therefore should have its own mechanics to communicate and have social interaction. It is also mentioned that a robot should be able to develop its own identity, this, combined with the transparent communication, allows people to treat the robot as a socially capable entity. This is especially important for our use case of ROSE in which we want to foster a social connection between the amputee and ROSE as co-amputee. </p>
+<p>This is also strongly linked to the guideline of ensuring that artificial emotions do not obstruct interaction. It is argued by Duffy that the techniques to convey artificial emotions should facilitate social interaction. When ensuring this, the co-amputee might be able to find support via ROSE by having a social connection.</p>
+<p>The guideline of balancing function and form is always a relevant guideline, however in our case the robot already exists. Despite this, by tuning into the form of ROSE (A robot with only one arm) the function of ROSE as a co-amputee is still balanced. 
+ </p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:2">
+<p>‘Furhat Robotics’. Accessed :May 19th 2025. [Online]. Available at: https://www.furhatrobotics.com/&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>‘Laban movement analysis’, Wikipedia. September 27th 2024. Accessed May 14th [Online]. Available at: https://en.wikipedia.org/w/index.php?title=Laban_movement_analysis&amp;oldid=1248108012&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>RISEConf, English:  10 July 2019; Furhat Robotics Press Conference in the Media Village during day two of RISE 2019 at the Hong Kong Convention and Exhibition Centre in Hong Kong. Photo by Stephen McCarthy/RISE via Sportsfile. 2019. Accessed: May 19th  2025. [Online]. Available via: https://commons.wikimedia.org/wiki/File:RISE_2019_-_44.jpg&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>‘What are Agile frameworks?’, GeeksforGeeks. Accessed: May 19th  2025. [Online]. Available at: https://www.geeksforgeeks.org/what-are-agile-frameworks/&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Mao, Ji-Ye, et al. "User-centered design methods in practice: a survey of the state of the art." Proceedings of the 2001 conference of the Centre for Advanced Studies on Collaborative research. 2001.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>]‘Spot’, Boston Dynamics. Accessed: May 19th 2025. [Online]. Available at: https://bostondynamics.com/products/spot/&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p>‘PARO Therapeutic Robot’. Accessed: May 19th 2025. [Online]. Available at: http://www.parorobots.com/&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p>‘education:socialrobotdesign:04_embodiment [Electronic Thingies for Fun Stuff]’. Accessed: MAy 18th 2025. [Online]. Available at: https://wiki.edwindertien.nl/doku.php?id=education:socialrobotdesign:04_embodiment&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 8 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:9" title="Jump back to footnote 8 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:9" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p>B. R. Duffy, ‘Anthropomorphism and the social robot’, Robotics and Autonomous Systems, vol. 42, nr. 3-4, pp. 177-190, mrt. 2003, doi: 10.1016/S0921-8890(02)00374-3.&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../reflection3/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Week 3">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Week 3
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../reflection5/" class="md-footer__link md-footer__link--next" aria-label="Next: Week 5">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Week 5
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.action.edit", "content.action.view", "content.tooltips", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "toc.integrate", "toc.follow", "navigation.footer"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>

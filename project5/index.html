@@ -1,0 +1,1115 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="HilkeB">
+      
+      
+        <link rel="canonical" href="https://hilkeb.github.io/social-robot-design-portfolio/project5/">
+      
+      
+        <link rel="prev" href="../project4/">
+      
+      
+        <link rel="next" href="../project6/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Week 5 - Portfolio Social Robot Design</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#toolkit-1-a-scenario-based-toolkit" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Portfolio Social Robot Design" class="md-header__button md-logo" aria-label="Portfolio Social Robot Design" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Portfolio Social Robot Design
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Week 5
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../project1/" class="md-tabs__link">
+          
+  
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../reflection1/" class="md-tabs__link">
+          
+  
+  
+  Reflection
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Portfolio Social Robot Design" class="md-nav__button md-logo" aria-label="Portfolio Social Robot Design" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    Portfolio Social Robot Design
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Project
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Week 5
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 5
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#toolkit-1-a-scenario-based-toolkit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Toolkit 1: A scenario-based toolkit
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Toolkit 1: A scenario-based toolkit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#case-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      Case study
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#insights-after-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Insights after testing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#toolkit-2-an-expressive-toolkit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Toolkit 2: An expressive toolkit
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Toolkit 2: An expressive toolkit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#insights-after-discussion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Insights after discussion
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#toolkit-3-an-embodiment-toolkit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Toolkit 3: An embodiment toolkit
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Toolkit 3: An embodiment toolkit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#insights-after-testing_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Insights after testing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reflection
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Reflection
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reflection8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Week 8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Week 5</h1>
+
+<p>During this week’s project meeting, a case study was conducted to test the created toolkits. During the past few weeks, the prototypes created have already been tested. However, where possible, a more advanced prototype was created and used during the case study of this week. </p>
+<h2 id="toolkit-1-a-scenario-based-toolkit">Toolkit 1: A scenario-based toolkit</h2>
+<p>The first toolkit that was created for this course was a <a href="../project2/">scenario based toolkit</a>. </p>
+<figure>
+<p><img alt="Online prototype scenario-based tool" src="../images/wheels.png" /></p>
+<figcaption>
+<p>Online prototype scenario-based tool</p>
+</figcaption>
+</figure>
+<p>However, to test the toolkit in a physical and collaborative setting, three physical dice were created by F. den Brok:</p>
+<figure>
+<p><img alt="Physical dice" src="../images/scenario_prototype.png" /></p>
+<figcaption>
+<p>HRI dices prototype</p>
+</figcaption>
+</figure>
+<h3 id="case-study">Case study</h3>
+<p>A case study was conducted in Design lab. During this case study, my group and I <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> tested this toolkit by rolling the dice and creating scenarios:</p>
+<ul>
+<li>Positive, emotional feedback/talking, arts/hobbies: Misses Johnson knitting in the common room of the care house; her motor skills are not what they used to be, and she made some mistakes. In frustration, she tried to take down her work when ROSE noticed. ROSE asks her: Why did you put it down? You were doing great! We can work it out together. On her screen, she shows a possible fix, and they work it out together. </li>
+<li>Working together, gardening, negative outcome: Bob and ROSE are working in the garden together. To finish the work faster, Bob provides ROSE with specific tasks, and they split up the work. ROSE goes across the field instead of going to the pavement on the freshly mowed lawn and runs over potatoes starting to grow. Bob gets angry and frustrated. Bob calls ROSE, but ROSE does not receive the message and continues on with her task. Bob is frustrated and disconnects ROSE.</li>
+</ul>
+<p>Below, a filled-in POEMS framework can be seen:</p>
+<figure>
+<p><img alt="POEMS framework scenario-based toolkit case study" src="../images/2.png" /></p>
+<figcaption>
+<p>POEMS framework <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup> scenario-based toolkit case study <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+</figcaption>
+</figure>
+<h3 id="insights-after-testing">Insights after testing</h3>
+<p>After testing the toolkit, we concluded that the dice are a nice tool to explore scenarios'. They provide some guidance; however, the open-ended character of the dice allows a designer to create out-of-the-box scenarios. Especially the dice about the outcomes of the scenario's allow for a nice exploration. I found it really nice to be forced to also think about possible negative and neutral outcomes of the scenario's. The scenario of ROSE and Bob is a good example of this. As a designer, it reminds me to also think about the possibility of ROSE not hearing or understanding any communication effort. It allows me to rethink what the minimum range of the microphones of the robot are and if a robot should be able to hear everything. This does show that storytelling can take on an important role in a design process, and therefore I do support the quote of Thomas Erickson shared during the lecture of week 2:</p>
+<div class="admonition quote">
+<p class="admonition-title">Quote</p>
+<p>Design is a distributed social process, and, as a result, communication plays a vital role. <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></p>
+</div>
+<p>The link to HRI of the digital is a bit too specific, which leads to less creative freedom. To mitigate this, story cubes with only symbols were created. By doing this, the link to HRI became a bit more implicit instead of explicit; however, it did allow for more conversation. In addition to this, we discussed if the physical story cubes were more beneficial over the digital prototype. We found that the physical story cubes provide a sense of control since you are able to shuffle the order of the dice, and you are able to pass the dice over to another team member. </p>
+<h2 id="toolkit-2-an-expressive-toolkit">Toolkit 2: An expressive toolkit</h2>
+<p><a href="../project3/">The expressive toolkit</a> was not iterated upon this week since it was already tested in detail, and it was not possible to gain access to a Sphero robot in time. Below, a video can be found that was recorded during the third week of this course.</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lp1jXDmAECw?si=lKo0WCg8b0NQTwuf" title="Exploration of emotions and urgency Sphero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: block; margin: 0 auto;"></iframe>
+
+<p>After a reflective conversation with the entire group, it was still possible to fill in the POEMS framework.</p>
+<figure>
+<p><img alt="POEMS framework expressive toolkit case study" src="../images/1.png" /></p>
+<figcaption>
+<p>POEMS framework <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup> expressive toolkit case study</p>
+</figcaption>
+</figure>
+<h3 id="insights-after-discussion">Insights after discussion</h3>
+<p>During the discussion we as a group had about our expressive toolkit, we discussed the outcome of our test. During the test, a Sphero robot was used, and this was a good choice since the lack of humanized features on the tiny robot ball allowed us to only review the movement and expression without being distracted. The Sphero was, however, a bit hard to control, and the colors of the lights were not really visible. Despite this, the toolkit provided us a good foundation to test the expression of urgency through movement. It was concluded by the group that especially high urgency and a low level of urgency (roaming behavior) were expressible via movement patterns. The level of some urgency was a bit harder to convey, since it relied on a lot of nuances. </p>
+<p>The toolkit was created based on the guidelines for social robot path finding by Francis et al. <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>. Because of this, it is no surprise that it was possible to recognize certain behaviors of the Sphero robot. </p>
+<h2 id="toolkit-3-an-embodiment-toolkit">Toolkit 3: An embodiment toolkit</h2>
+<p>After a <a href="../project4/">digital prototype</a>, a paper prototype was created by me to test the embodiment toolkit. Three of the participants were tasked with creating a robot embodiment that suited their wants and needs. The social guidelines (Safety, Comfort, Legibility, Politeness, Social Competence, Understanding other agents, proactivity, and responding appropriately) also have similarities with the work of Cyntia Breazeal on the first social Robot: Kismet <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>. In addition to this, the creation of an expressive toolkit through movement showed resemblance with the work of Laban <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> in which the space, weight, and flow/time of a motion could be used to convey emotions. </p>
+<figure>
+<p><img alt="embodiment prototype" src="../images/embodiment_prototype.jpg" /></p>
+<figcaption>
+<p>Embodiment prototype</p>
+</figcaption>
+</figure>
+<figure>
+<p><img alt="POEMS framework embodiment toolkit case study" src="../images/3.png" /></p>
+<figcaption>
+<p>POEMS framework <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> embodiment toolkit case study</p>
+</figcaption>
+</figure>
+<p>The following three robot embodiments were created (from left to right):</p>
+<ul>
+<li>The robot should be a positive and approachable robot that finds its way through sonar. To achieve this, two speakers were placed on the fundamental block and represented the eyes of the robot. In addition, a blueberry representing the receiver was added to the robot.</li>
+<li>The blue color was used to evoke calm and negative, sad emotions since this robot is a robot to talk to when you are sad, and therefore it needs to be empathic and show it feels you. Ears, since it can hear and make sounds (beeps). I also gave it a nose and eyes, since it is a social robot that is made for interaction with humans. The joystick on the head can be used to provide input to the robot and set it to different modes, such as listening, cheering up, waking up, and sleeping. </li>
+<li>The robot is meant to represent a sort of pet buddy who helps with tasks and guiding around the house choirs. The yellow color is meant to represent a calm and happy robot that I'd always be there to support. The top cone can rotate to help detect where to clean up, the watermelon can tilt up and down to indicate where to go, and the tail in the back (banana) can jiggle to indicate trouble has been found.</li>
+</ul>
+<figure>
+<p><img alt="Embodiment exploration" src="../images/result.png" /></p>
+<figcaption>
+<p>Results of the embodiment case study</p>
+</figcaption>
+</figure>
+<h3 id="insights-after-testing_1">Insights after testing</h3>
+<p>After the testing, we concluded that the color coding of the robot is a bit simplified, since colors can be used for way more than only conveying an emotion. A total of three different and interesting embodiments were created. A bigger variety of fundamental blocks, or moldable fundamental blocks, would provide a more realistic exploration. The velcro allowed for full exploration of the physical body of the robot, and the technical components were varied and allowed for the exploration of functionalities. </p>
+<p>The combination of fundamental blocks and technical blocks allowed us to explore not only the technical and robotic capabilities of a robot, but also the social aspects of the design. During the reflection of <a href="../reflection4/">week 4</a> user-centered design methods were discussed. These methodologies do not only look at what a robot should do, but also how a robot should do things or how a robot should be perceived. By exploring the embodiment of a robot via shapes and fruits, the look and feel of a robot can be altered to match, or purposefully mismatch the intended use of a robot. It also allows a designer to explore the balance between form and function. </p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>‘POEMS – Research Tool - Nova’. Accessed: May 25th 2025. [Online]. Available at: https://novatools.org/poems-research-tool/&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>F. den Brok, S. Nanwani, D. Doeleman, R. den Otter, H. van den Born&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Erickson, T. (1996). Design as storytelling. interactions, 3(4), 30-35.http://doi.org/10.1145/234813.234817&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>A. Francis e.a., ‘Principles and Guidelines for Evaluating Social Robot Navigation Algorithms’, J. Hum.-Robot Interact., vol. 14, nr. 2, pp. 1-65, jun. 2025, doi: 10.1145/3700599.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>C. L. (Cynthia L. Breazeal, ‘Sociable machines : expressive social exchange between humans and robots’, Thesis, Massachusetts Institute of Technology, 2000. Geraadpleegd: 3 juli 2025. [Online]. Beschikbaar op: https://dspace.mit.edu/handle/1721.1/9303&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>‘Laban movement analysis’, Wikipedia. September 27th 2024. Accessed May 14th [Online]. Available at: https://en.wikipedia.org/w/index.php?title=Laban_movement_analysis&amp;oldid=1248108012&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../project4/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Week 4">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Week 4
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../project6/" class="md-footer__link md-footer__link--next" aria-label="Next: Week 6">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Week 6
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.action.edit", "content.action.view", "content.tooltips", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "toc.integrate", "toc.follow", "navigation.footer"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
