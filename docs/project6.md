@@ -1,6 +1,9 @@
-During this week's project session a behavior toolkit was created by my group and I (F. den Brok, S. Nanwani, D. Doeleman, R. den Otter, H. van den Born). The tool should preferrably not rely on a Wizard of Oz.
+During this week's project session a behavior toolkit was created by my group and I (F. den Brok, S. Nanwani, D. Doeleman, R. den Otter, H. van den Born). The tool should preferrably not rely on a Wizard of Oz. At the beginning of the lecture we talked about the difference between the behavior- and expressive toolkit. After a brief discussion we concluded that in our eye's the expressive toolkit had a stronger focus on non verbal communication and expressiveness while behavior is more about the overaching image. Behavior is more that movement and expression, it inlcudes the way you talk, the way you move, the valance of your actions and more. We wanted to incorporate this and after some more brainstroming we decided that it might be interesting to create different ROSE personality cards. We were inspired by the 16 personality types [^16] and the concept of Dungeons and Dragons [^17] in which you can shape your own character and narrative. In addition to this, we found that personality can be of hughe influence on how people behave them selves [^18]. By using personalitie types we aim to create a tool which can be utilized to explore the behavior of ROSE in a lot of different settings. In addition, the tool might allow for the customization of care robots to specifically fit patient needs.
 
-After a quick brainstorm we settled on the idea of character personlization of ROSE. When ROSE will be used in elderly care it should be able to communicate with a lot of different patients. Because of this we created five character types for ROSE (It was a struggle to get the sources correct in the images, because of this I will elaborte on our process after the presentation of the five different character profiles :) ) 
+### Working of the toolkit
+The toolkit works as follows: A caregiver or deisgner can select a personality type for ROSE. When a caregiver chooses the personlaity type they can use the patient history and knowledge about the patient to select a fitting character type. In addition to this, an interaction designer can also explore behavior in different social settings with this tool. The designer can design their own character sheets or use one of our created sheets. 
+
+The five personalities were based on literature. We acknowlegde that personalities are not always so straight forward as presented below, however for the aim of this ourse a total of 5 personality types were chosen:
 
 ### ROSE the logician
 
@@ -52,6 +55,6 @@ ROSE as the companion.
 [^13]: https://link.springer.com/article/10.1007/s10639-022-11132-2  "The dual role of humanoid robots in education: As didactic tools and social actors | Education and Information Technologies"
 [^14]: https://link.springer.com/article/10.1007/s10639-024-12570-w
 [^15]: https://dl.acm.org/doi/10.1145/3568294.3580075  "Designing Robotic Movement with Personality | Companion of the 2023 ACM/IEEE International Conference on Human-Robot Interaction"
-
-### Inspiration for behavior toolkit
-We were inspired by the 16 personality test in which a user can take a quiz and find out which personality type they are. 
+[^16]: ‘Personality Types | 16Personalities’[Online]. Available at: https://www.16personalities.com/personality-types, https://www.16personalities.com/personality-types
+[^17]: https://www.dndbeyond.com/
+[^18]: W. Ickes, M. Snyder, en S. Garcia, ‘Personality Influences on the Choice of Situations’, in Handbook of Personality Psychology, Elsevier, 1997, pp. 165-195. doi: 10.1016/B978-012134645-4/50008-1.
