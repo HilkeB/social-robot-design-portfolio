@@ -3,5 +3,10 @@ hide:
   - footer
 ---
 
-I'm still working on this week... see you in the future!
+During this week’s project meeting a case study was conducted to test the created behavior- and ethical toolkits. 
+
+## Case study behavioral toolkit
+
+
+## Case study ethical toolkit
 

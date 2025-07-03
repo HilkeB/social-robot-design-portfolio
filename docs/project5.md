@@ -23,7 +23,8 @@ A casestudy was conducted in Design lab. During this case study my group and I [
 -  Working together, gardening, negative outcome: Bob and ROSE are working in the garden together, to finish the work fatser Bob provides ROSE with speciic tasks and they split up the work. ROSE goes across the field instead of going to the pavement on the freshly mowed lawn, and runs over potatoes starting to grow. Bob gets angry and frustrated. Bob calls ROSE but ROSE does not receive the message and continues on with her task. Bob is frustrated and disconnects ROSE.
 
 
- below a filled in POEMS framework can be seen"
+ Below a filled in POEMS framework can be seen:
+
 ![POEMS framework scenario-based toolkit case study](images/2.png)
 /// caption
 POEMS framework [^1] scenario-based toolkit case study [^1]
@@ -32,7 +33,7 @@ POEMS framework [^1] scenario-based toolkit case study [^1]
 [^1]: ‘POEMS – Research Tool - Nova’. Accessed: May 25th 2025. [Online]. Available at: https://novatools.org/poems-research-tool/
 [^2]: F. den Brok, S. Nanwani, D. Doeleman, R. den Otter, H. van den Born
 
-### insights after testing
+### Insights after testing
 After testing of the toolkit we concluded that the dice are a nice tool to explore scenario's. They provide some guidance however the open ended charcter of the dice allow a designer to create out of the box scenarios. Especially the dice about the outcomes of the scenario's allow for a nice exploration. I found it really nice to be forced to also think about possible negative and neutral outcomes of the scenario's. The scenario of ROSE and Bob is a good example of this. As a designer it reminds me to also think about the possibility of ROSE not hearing or understanding an communication effort. It allows me to rethink what the minimum range of the microphones of the robot are and if a robot should be able to hear everything.
 
  The link to HRI was however a bit too specific which lead to less creative freedom. To mitigate this, storycubes with only symbols were created. By doing this, the link to HRI became a bit more implicit instead of explicit however it did allow for more conversation. In addition to this, we disussed if the physical story cubes were more beneficial over the digital prototype. We found that the physical stoy cubes provide a sense of control since you are able to shuffle the order of the dice and you are bale to pass the dice over to another team member. 
@@ -50,7 +51,7 @@ After a reflective conversation with the entire group, it was still possible to 
 POEMS framework [^1] expressive toolkit case study
 /// 
 
-### insights after discussion
+### Insights after discussion
 During the discussion we as a group had about our expressive toolkit we discussed to outcome of our test. During the test a Sphero robot was used and this was a good choice since the lack of humanized features on the timy robot ball allowed us to only review the movement and expression without being distracted. The Sphero was however a bit hard to control and the colors of the ligths were not really visible. Despite this, the toolkit provided us a good foundation to test the expression of urgency through movement. It was concluded by the group that especially high urgency and a low level of urgency (roaming behavior) were expressible via movement patterns. The level of some urgency was a bit harder to convey since it relied on a lot of nuances. 
 
 ## Toolkit 3: An embodiment toolkit
@@ -77,5 +78,5 @@ The fllowing three robot embodiements were created (from left to right):
 Results of the embodiment case study
 /// 
 
-### insights after testing 
+### Insights after testing 
 After the testing we conluded that the color coding of the robot is a bit simplified since colors can be used for way more than only conceying an emotion. A total of three different and interesting embodiments were created. A bigger variety of fundamental blocks, or mouldable fundamental blocks would provide a more realistic exploration. The velcro allowed for full exploration of the physical body of the robot and the technical components were varied and allowed for the exploration of functionalities. 

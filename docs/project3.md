@@ -66,3 +66,5 @@ Toolkit and example scenario.
 
 After the creation of the toolkit, we explored several combinations of emotions and levels of urgency. Unfortunately the colors are not really visible in this video. 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lp1jXDmAECw?si=lKo0WCg8b0NQTwuf" title="Exploration of emotions and urgency Sphero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+The expressive toolkit will be tested, evaluated and linked to literature during the case study in [week 5](project5.md).
