@@ -16,7 +16,7 @@ However, to test the toolkit in a physical and collaborative setting, three phys
 HRI dices prototype
 /// 
 
-### case study
+### Case study
 A case study was conducted in Design lab. During this case study, my group and I [^2] tested this toolkit by rolling the dice and creating scenarios:
 
 -  Positive, emotional feedback/talking, arts/hobbies: Misses Johnson knitting in the common room of the care house; her motor skills are not what they used to be, and she made some mistakes. In frustration, she tried to take down her work when ROSE noticed. ROSE asks her: Why did you put it down? You were doing great! We can work it out together. On her screen, she shows a possible fix, and they work it out together. 
@@ -47,7 +47,7 @@ The link to HRI of the digital is a bit too specific, which leads to less creati
 
 [The expressive toolkit](project3.md) was not iterated upon this week since it was already tested in detail, and it was not possible to gain access to a Sphero robot in time. Below, a video can be found that was recorded during the third week of this course.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lp1jXDmAECw?si=lKo0WCg8b0NQTwuf" title="Exploration of emotions and urgency Sphero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lp1jXDmAECw?si=lKo0WCg8b0NQTwuf" title="Exploration of emotions and urgency Sphero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: block; margin: 0 auto;"></iframe>
 
 After a reflective conversation with the entire group, it was still possible to fill in the POEMS framework.
 

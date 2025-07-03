@@ -19,7 +19,7 @@ To test this toolkit, we took inspiration from the theater-style type of explora
 
 Below, a video of two of the runs can be found. The first patient was a grumpy old man who only wanted to take blue pills. Unfortunately, his pills are not blue. The caregiver selected the protector personality for ROSE since the patient needs clear communication and a firm hand. During the second scenario, ROSE encounters an old lady who is roaming around the halls of the care home. Unsure how to get back to the living room, she accepts the assistance of ROSE who is programmed as an empath.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sDCIbt0dpWc?si=sDCIbt0dpWcuf" title="Exploration of different ROSE personalities" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sDCIbt0dpWc?si=sDCIbt0dpWcuf" title="Exploration of different ROSE personalities" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: block; margin: 0 auto;"></iframe>
 
 The video above was published with the consent of the people who were filmed. However, to protect their privacy online, the roles POEMS framework below are not specified. This is to ensure that the names of the people visible in the video are not directly linkable to their image. 
 
