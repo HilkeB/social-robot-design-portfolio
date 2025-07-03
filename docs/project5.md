@@ -34,9 +34,14 @@ POEMS framework [^1] scenario-based toolkit case study [^1]
 [^2]: F. den Brok, S. Nanwani, D. Doeleman, R. den Otter, H. van den Born
 
 ### Insights after testing
-After testing of the toolkit we concluded that the dice are a nice tool to explore scenario's. They provide some guidance however the open ended charcter of the dice allow a designer to create out of the box scenarios. Especially the dice about the outcomes of the scenario's allow for a nice exploration. I found it really nice to be forced to also think about possible negative and neutral outcomes of the scenario's. The scenario of ROSE and Bob is a good example of this. As a designer it reminds me to also think about the possibility of ROSE not hearing or understanding an communication effort. It allows me to rethink what the minimum range of the microphones of the robot are and if a robot should be able to hear everything.
+After testing of the toolkit we concluded that the dice are a nice tool to explore scenario's. They provide some guidance however the open ended charcter of the dice allow a designer to create out of the box scenarios. Especially the dice about the outcomes of the scenario's allow for a nice exploration. I found it really nice to be forced to also think about possible negative and neutral outcomes of the scenario's. The scenario of ROSE and Bob is a good example of this. As a designer it reminds me to also think about the possibility of ROSE not hearing or understanding an communication effort. It allows me to rethink what the minimum range of the microphones of the robot are and if a robot should be able to hear everything. This does show that storytelling can take on an important role in a design process and therefore I do support the quote of Thomas Erickson shared during the lecture of week 2:
 
- The link to HRI was however a bit too specific which lead to less creative freedom. To mitigate this, storycubes with only symbols were created. By doing this, the link to HRI became a bit more implicit instead of explicit however it did allow for more conversation. In addition to this, we disussed if the physical story cubes were more beneficial over the digital prototype. We found that the physical stoy cubes provide a sense of control since you are able to shuffle the order of the dice and you are bale to pass the dice over to another team member. 
+!!! quote
+    Design is a distributed social process, and, as a result, communication plays a vital role. [^3]
+
+[^3]: Erickson, T. (1996). Design as storytelling. interactions, 3(4), 30-35.http://doi.org/10.1145/234813.234817
+
+The link to HRI of the digital a bit too specific which lead to less creative freedom. To mitigate this, storycubes with only symbols were created. By doing this, the link to HRI became a bit more implicit instead of explicit however it did allow for more conversation. In addition to this, we disussed if the physical story cubes were more beneficial over the digital prototype. We found that the physical stoy cubes provide a sense of control since you are able to shuffle the order of the dice and you are bale to pass the dice over to another team member. 
 
 ## Toolkit 2: An expressive toolkit
 
@@ -54,8 +59,16 @@ POEMS framework [^1] expressive toolkit case study
 ### Insights after discussion
 During the discussion we as a group had about our expressive toolkit we discussed to outcome of our test. During the test a Sphero robot was used and this was a good choice since the lack of humanized features on the timy robot ball allowed us to only review the movement and expression without being distracted. The Sphero was however a bit hard to control and the colors of the ligths were not really visible. Despite this, the toolkit provided us a good foundation to test the expression of urgency through movement. It was concluded by the group that especially high urgency and a low level of urgency (roaming behavior) were expressible via movement patterns. The level of some urgency was a bit harder to convey since it relied on a lot of nuances. 
 
+The toolkit was created based on the guidelines for social robot path finding by Francis et al. [^4]. Because of this, it is no surprise that it was possible to recognize certain behaviors of the Sphero robot. 
+
+[^4]: A. Francis e.a., ‘Principles and Guidelines for Evaluating Social Robot Navigation Algorithms’, J. Hum.-Robot Interact., vol. 14, nr. 2, pp. 1-65, jun. 2025, doi: 10.1145/3700599.
+
 ## Toolkit 3: An embodiment toolkit
-After a [digital prototype](project4.md), a paper prototype was created by me to test the embodiment toolkit. Three of the participants were tasked with cretaing an robot embodiement which suited their wants and needs.
+After a [digital prototype](project4.md), a paper prototype was created by me to test the embodiment toolkit. Three of the participants were tasked with cretaing an robot embodiement which suited their wants and needs. The social guidelines (Safety, Comfort, Legibility, Politeness, Social Competence, Understanding other agents, proactivity and responding appropriately) also have simmillarities with the work of Cyntia Breazeal on the first social Robot: Kismet [^5]. In addition to this, the creation of an expressive toolkit through movement showed resemblance with the work of Laban [^6] in which the space, weight and flow/time of a motion could be used to convey emotions. 
+
+[^5]: C. L. (Cynthia L. Breazeal, ‘Sociable machines : expressive social exchange between humans and robots’, Thesis, Massachusetts Institute of Technology, 2000. Geraadpleegd: 3 juli 2025. [Online]. Beschikbaar op: https://dspace.mit.edu/handle/1721.1/9303
+
+[^6]: ‘Laban movement analysis’, Wikipedia. September 27th 2024. Accessed May 14th [Online]. Available at: https://en.wikipedia.org/w/index.php?title=Laban_movement_analysis&oldid=1248108012
 
 ![embodiment prototype](images/embodiment_prototype.jpg)
 /// caption
@@ -80,3 +93,5 @@ Results of the embodiment case study
 
 ### Insights after testing 
 After the testing we conluded that the color coding of the robot is a bit simplified since colors can be used for way more than only conceying an emotion. A total of three different and interesting embodiments were created. A bigger variety of fundamental blocks, or mouldable fundamental blocks would provide a more realistic exploration. The velcro allowed for full exploration of the physical body of the robot and the technical components were varied and allowed for the exploration of functionalities. 
+
+The combination of fundamental blocks and technical blocks allowed us to explore not only the technical, and robotic capabilities of a robot, but also the social aspects of the design. During the reflection of [week 4](reflection4.md) user centered design methods were discussed. These methodologies do not only look at what a robot should do, but also how a robot should do things or how a robot should be percieved. By exploring the embodiement of a robot via shapes and fruits the look and feel of a robot can be altered to match, or purposfully mismatch the intented use of a robot. It also allows a designer to explore the balance between form and function. 

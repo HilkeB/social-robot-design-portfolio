@@ -29,7 +29,7 @@ POEMS framework [^2] behavioural toolkit case study.
 /// 
 
 ### Insights after testing
-The behavioural toolkit allowed us to explore the influence of different personalities of ROSE. The theater approach also allowed for fun and open ended exploration. It was concluded that the costumization of ROSE can be helpful to ensure that elderly patients feel safe and receive the care that they need. One this which we did not do during the case study is reviewing the same scenario with different personality types. Currently we only explored to personality types which we deemed to be the best fit to the scenario's. It would have been interesting to see how the scenario's would have played out when ROSE is programmed differently. 
+The behavioural toolkit allowed us to explore the influence of different personalities of ROSE. The theater approach as often mentoined during the lectures also allowed for fun and open ended exploration. It was concluded that the costumization of ROSE can be helpful to ensure that elderly patients feel safe and receive the care that they need. One this which we did not do during the case study is reviewing the same scenario with different personality types. Currently we only explored to personality types which we deemed to be the best fit to the scenario's. It would have been interesting to see how the scenario's would have played out when ROSE is programmed differently. 
 
 
 
